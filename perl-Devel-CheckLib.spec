@@ -1,6 +1,6 @@
 Name:           perl-Devel-CheckLib
 Version:        0.99
-Release:        2%{?dist}
+Release:        1%{?dist}
 Summary:        Check that a library is available
 
 License:        GPL+ or Artistic
@@ -53,9 +53,6 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.99-2
-- Mass rebuild 2013-12-27
-
 * Thu Apr  4 2013 Jose Pedro Oliveira <jpo at di.uminho.pt> - 0.99-1
 - Update to 0.99.
 
